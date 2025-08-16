@@ -1,7 +1,14 @@
 import streamlit as st
 
-# Title
+# Title with image
 st.title("🛒 Simple Grocery Store")
+
+# Add grocery image from internet
+st.image("https://cdn.pixabay.com/photo/2016/03/05/19/02/vegetables-1238252_1280.jpg", 
+         caption="Fresh Groceries", use_container_width=True)
+
+# Add exciting music
+st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", autoplay=True)
 
 # Sidebar for navigation
 menu = ["Home", "Add Items", "Cart", "Checkout"]
